@@ -14,7 +14,7 @@ module.exports = (app) => {
 
     app.post('/add1', Midterm.add1)
 
-    app.post('/que1', Midterm.que1)
+    app.post('/que1', UserController.que1)
 
     app.post('/que2', Midterm.que2)
    
