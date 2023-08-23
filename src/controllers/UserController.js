@@ -28,7 +28,7 @@ module.exports ={
         res.send(output.toString());
       },
 
-      que2 (req, res) {
+    que2 (req, res) {
         number = parseInt(JSON.stringify(req.body["input"]));
         console.log("input = " + number);
     
@@ -60,7 +60,7 @@ module.exports ={
     
       },
 
-      add1(req, res) {
+    add1(req, res) {
         input = parseInt(JSON.stringify(req.body["input"]));
         console.log("input = " + input);
         output = input + 1;
