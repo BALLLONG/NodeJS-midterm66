@@ -10,7 +10,7 @@ module.exports = {
   que1(req, res) {
     n = parseInt(JSON.stringify(req.body["input"]));
     console.log("input = " + n);
-    output = number + number;
+    output = number - 1;
     console.log("result = " + output);
     res.send(output.toString());
   },

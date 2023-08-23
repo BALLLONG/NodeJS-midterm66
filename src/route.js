@@ -17,5 +17,6 @@ module.exports = (app) => {
     app.post('/que1', Midterm.que1)
 
     app.post('/que2', Midterm.que2)
+   
 
 }
